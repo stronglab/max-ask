@@ -1,1 +1,5 @@
-# max-ask
+<?= 
+Max::getMax()
+    ->ask('Why?')
+    ->getAnswer(); 
+?>
